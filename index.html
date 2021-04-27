@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Football Highlight App</title>
+    <title>Football Fix App</title>
     <script src="getData.js"></script>
     <script src="randomTeams.js"></script>
     <script src="renderPost.js"></script>
@@ -11,10 +11,16 @@
   </head>
 
   <body>
-    <h1>Give me random football highlights!</h1>
-    
-    <button type='submit' id="refresh" onClick="refreshPage()">Refresh</button>
-    <h2>Teams</h2>
+    <h1>Football Fix</h1>
+      <h2>Catch up with your favourites teams highlights or get your football fix and watch a random match!</h2>
+    <h3>Search for a team</h3>
+    <input id="text1" placeholder="A football team">
+    <br>
+    <button onclick="findTeam()" id="findTeam">Find Highlights</button>
+    <br>
+    <br>
+    <button type='submit' id="refresh" onClick="refreshPage()">Random Highlight</button>
+    <h3>Teams</h3>
     <div id="main"></div>
 
     <script>
