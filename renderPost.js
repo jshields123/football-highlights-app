@@ -1,6 +1,8 @@
 
 
 function renderPost(sportData){
+//     if 
+
     let postTitleHTML = `<p>${sportData[randTeam]['title']}</p>`
     let postDateHTML = `<p>${sportData[randTeam]['date']}</p>`
     let postVideoHTML = `<div>${sportData[randTeam]['videos'][0]['embed']}</div>`

@@ -8,13 +8,15 @@ const api = 'https://www.scorebat.com/video-api/v1/'
            })
         }
 
-        // below function currently filters json for Newcastle United games - need to include a search function for any club.
+        // below function currently filters json for user inputted team games.
+        // need to add this as an option for the games to be rendered.
         function findTeam () {
             let userInput = document.getElementById("text1").value 
             console.log(userInput)
              getSportData().then(data => {
             const newArray = data.filter(element => element.title.includes(userInput))
-            console.log(newArray[0]);
+            let result = newArray[0]
+            return result
         })
     }
 

@@ -1,0 +1,22 @@
+{
+  "name": "api-stuff",
+  "version": "1.0.0",
+  "description": "This app uses a football highlight api to embed videos of latest football highlights in the top divisions. The user can either choose to pick their favourite teams latest highlights or can choose random pick and get the next available highlight to enjoy! Why trawl through youtube when you can come and use this app to get your football fix.",
+  "main": "getData.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshields123/football-highlights-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshields123/football-highlights-app/issues"
+  },
+  "homepage": "https://github.com/jshields123/football-highlights-app#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
