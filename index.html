@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Football Fix App</title>
     <script src="getData.js"></script>
     <script src="randomTeams.js"></script>
-    <script src="renderPost.js"></script>
     <script src="randomiseHighlights.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="findTeam.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <div class='big-div'>
     <h1>Football Fix</h1>
-      <h2>Catch up with your favourites teams highlights or get your football fix and watch a random match!</h2>
+    <h2>
+      Catch up with your favourites teams highlights or explore random matches
+      and get your football fix!
+    </h2>
     <h3>Search for a team</h3>
-    <input id="text1" placeholder="A football team">
-    <br>
+    <input id="text1" placeholder="A football team" />
+    <br />
+    <br />
     <button onclick="findTeam()" id="findTeam">Find Highlights</button>
-    <br>
-    <br>
-    <button type='submit' id="refresh" onClick="refreshPage()">Random Highlight</button>
+    <br />
+
+    <h3>Or explore with Random Highlights!</h3>
+    <button type="submit" id="refresh" onClick="refreshPage()">
+      Random Highlight
+    </button>
     <h3>Teams</h3>
     <div id="main"></div>
-
-    <script>
-    </script>
+    </div>
+    <script src="renderPost.js"></script>
   </body>
 </html>
