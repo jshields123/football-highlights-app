@@ -13,3 +13,7 @@ async function findTeam() {
     return null;
   }
 }
+
+getSportData().then((response) =>  {const res = response
+  console.log(res)
+})
