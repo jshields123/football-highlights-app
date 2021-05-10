@@ -14,19 +14,16 @@
 
   <body>
     <div class='big-div'>
-    <div class="item">
+    <div id='title' class="item">
       <h1>Football Fix</h1>
     <h3>
       Catch up with all the latest football highlights!
     </h3>
   </div>
-  <div class="item">
-    <br>
+  <div id='search'class="item">
     <h3>Search for your team:</h3>
     <form action=""></form>
     <input id="text1" placeholder="Enter a football team" />
-    <br />
-   
     <button onclick="findTeam()" id="findTeam">Find Highlights</button>
     <br />
     <br>
@@ -35,7 +32,6 @@
     <br>
     <br>
     <h3>Or explore with Random Highlights!</h3>
-  
     <button type="submit" id="refresh" onClick="refreshPage()">
       Random Highlight
     </button>
@@ -43,8 +39,10 @@
   </div>
   <div class="item">
     <br>
-    <h3>Teams</h3>
-    <div id="main"></div>
+    <h3 id='teams'>Teams:</h3>
+  </div>
+    <div id="main">
+    </div>
     </div>
     <script src="./src/renderPost.js"></script>
   </body>

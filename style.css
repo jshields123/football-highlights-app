@@ -7,9 +7,10 @@
 }
 .item {
     width: 40%;
-    height: 100px;
+    height: 80px;
     font-family:'Anton', sans-serif;
     color: whitesmoke;
+    padding: 20px;
     
 }
 .item:nth-child(2n) {
@@ -19,5 +20,12 @@
 body {
     background-color: black;
     
+}
+#main {
+    width: 80%;
+    padding: 20px;
+}
+#teams {
+    padding-top: 50px;
 }
 
